@@ -1,0 +1,40 @@
+h1 {color: #5C4033;
+    text-align: center;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 50px;
+    }
+
+body {
+    width: 50%;
+    margin: auto;
+    }
+p {line-height: 1.6;
+    font-size: 18px;
+} 
+
+#intro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+
+#byline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+byline {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    }
+
+
+p.story {
+    }
+#article  {
+    border: 1px solid black; 
+    }   
+    /* for phones */
+    @media (orientation: portrait) {
+        body {
+            width: 100%;
+        }
+    }
